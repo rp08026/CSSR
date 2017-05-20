@@ -8,15 +8,15 @@
 #ifndef COMMON_H
 #define COMMON_H
 
-#include <stdlib.h>
-#include <math.h>
-#include <float.h>
-#include <fstream.h>
-#include <stdio.h>
-#include <iostream.h>
-#include <iomanip.h>
-#include <string.h>
-#include <ctype.h>
+#include <cstdlib>
+#include <cmath>
+#include <cfloat>
+#include <fstream>
+#include <cstdio>
+#include <iostream>
+#include <iomanip>
+#include <cstring>
+#include <cctype>
 
 #define INCREMENT 10     //size of array growth
 #define INITIAL_SIZE 50  //intial size of array of states
@@ -26,5 +26,7 @@
 #define SYMB_SIZE 1      //size of alpha symbol in ascii characters
 #define MAX_STRING 80	 //maximum memory allocation for a generic string
 typedef unsigned long ulong;
+
+using namespace std;
 
 #endif
